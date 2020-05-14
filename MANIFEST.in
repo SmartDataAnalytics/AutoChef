@@ -1,0 +1,9 @@
+include src/autochef/data/foodsubs_dataframe.pb
+include src/autochef/RecipeAnalysis/m_act.dill
+include src/autochef/RecipeAnalysis/m_base_act.dill
+include src/autochef/RecipeAnalysis/m_base_mix.dill
+include src/autochef/RecipeAnalysis/m_grouped_act_raw.dill
+include src/autochef/RecipeAnalysis/m_grouped_base_act_raw.dill
+include src/autochef/RecipeAnalysis/m_grouped_mix_raw.dill
+include src/autochef/RecipeAnalysis/m_mix.dill
+include src/autochef/Tagging/test.crfsuite
