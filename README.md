@@ -2,12 +2,24 @@
 
 An Evolutionary Algortihm to create new cooking recipes
 
+## requirements
+
+* an envrironment with python3.7.
+* For python3.8 or newer the adjacency matrices have to be created manually from the 1M Recipe Dataset as described in the package details below
+
 ## installation
 
-install this repository as python package with pip:
+* clone this directory: `https://github.com/SmartDataAnalytics/AutoChef.git`
+* inside the cloned project, extract the pregenerated compressed adjacency matrices with
+
+```
+cd src/autochef/RecipeAnalysis && tar -xf adjacency_matrices.tar.xz
+```
+
+* install the cloned package with pip:
 
 ```bash
-pip install git+https://the-cake-is-a-lie.net/gogs/jonas/Autochef.git#egg=autochef
+pip install ./AutoChef
 ```
 
 ## Example Usage:
