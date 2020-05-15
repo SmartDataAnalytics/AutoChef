@@ -19,6 +19,7 @@ cd src/autochef/RecipeAnalysis && tar -xf adjacency_matrices.tar.xz
 * install the cloned package with pip:
 
 ```bash
+pip install wheel
 pip install ./AutoChef
 ```
 
